@@ -1,3 +1,4 @@
+<img src="./image/cover.png" alt="Version">
 # FileGrouper
 
 FileGrouper is a powerful Bash script for organizing and managing files within a directory. It provides various options to group, search, and filter files based on their type, size, or name.
