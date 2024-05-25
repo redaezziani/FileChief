@@ -1,4 +1,5 @@
 <img src="./image/cover.png" alt="Version">
+
 # FileGrouper
 
 FileGrouper is a powerful Bash script for organizing and managing files within a directory. It provides various options to group, search, and filter files based on their type, size, or name.
@@ -20,9 +21,10 @@ chmod +x fileGrouper.sh
 
 
 2. Run the script with the desired options:
-
+```bash
 ./fileGrouper.sh [options]
 
+```
 
 Available options:
 - `-d <directory>`: Specify the directory to operate on (required)
@@ -35,32 +37,31 @@ Available options:
 - `-y <type>`: Get files of the specified type
 
 Example usage:
-
+```bash
 ./fileGrouper.sh -d /path/to/directory -t -s
-
+```
 This command will group files in `/path/to/directory` by both type and size.
 
 ## Examples
 
 1. Group files by type:
-
+```bash
 ./fileGrouper.sh -d /path/to/directory -t
-
+```
 
 2. Search for files with a `.txt` extension:
-
+```bash
 ./fileGrouper.sh -d /path/to/directory -f "*.txt"
-
+```
 
 3. Get files larger than 10MB:
-
+```bash
 ./fileGrouper.sh -d /path/to/directory -z +10M
-
-
+```
 4. Display all regular files in a directory:
-
+```bash
 ./fileGrouper.sh -d /path/to/directory -y f
-
+```
 
 ## Caution
 
